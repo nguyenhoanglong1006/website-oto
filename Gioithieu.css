@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 15px;
+    font-family: sans-serif,Arial, Helvetica, sans-serif;
+    
+}
+/* #main{
+    background-color: black;
+} */
+#head{
+    height: 50px;
+    background-color: black;
+    
+}
+#head span{
+    font-size: 18px;
+    padding: 25px;
+    
+}
+#head a{
+    font-size: 18px;
+    padding: 25px ;
+}
+/* modal */
+
+#modalDangnhap  .form-control {
+    width: 80%;
+}
+
+#modalDangnhap .form-input input {
+    margin-left: 10%;
+}
+#modalDangnhap .nav-tabs .nav-link.active{
+    color: black;
+}
+#modalDangnhap a {
+    color: cyan;
+}
+#modalDangnhap .btn-dark{
+    color: cyan;
+}
+#modalDangnhap .nav-item{
+    width: 50%;
+}
+#modalDangnhap span {
+    margin-left: 10%;
+}
+#main-nav{
+    height: 130px;
+    background-color: rgb(250, 245, 245);
+}
+#main-nav .nav li:hover >a {
+    color :black; 
+    background-color: rgb(29, 107, 180);
+    
+}
+
+#main-nav li >a{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+   
+   
+}
+#main-nav .dropdown-menu :hover >a{
+    background-color: #fff;
+}
+#main-nav .menu {
+    padding-top: 40px;
+    
+}
+#main-nav .col-2{
+    width: 3%;
+    height: 130px;
+   
+    display:block;
+}
+#head .search {
+    width: 60% !important;
+}
+
+#main-nav li:hover .dropdown-menu{
+    display: block;
+
+}
+
+/* ::content */
+#content{
+    height: 4000px;
+    width: 70%;
+    margin: 0 15%;
+    /* border: 1px solid black; */
+    
+}
+#content img{
+    padding: 50px 25px 0 25px;
+}
+#content p{
+    padding: 0 25px;
+    font-size: 20px;
+}
+#content h3{
+    padding: 0px 0 0 50px;
+}
+#content .A-class img{
+    margin: 0 100px;
+}
+#content .A-class p{
+    margin: 0 400px;
+}
+
+/* footer */
+#footer{
+    height: 100px;
+    background-color: black;
+    font-size: 20px;
+}
+#footer p{
+    padding: 15px;
+}
+/* size */
+@media (max-width:900px) {
+    #head .hotline {
+        display: none;
+    }
+    #main-nav .logo {
+        height: 100px;
+        margin-top: 20px;
+        
+    }
+    #main-nav {
+        height: 90px;
+    }
+    #main-nav .logo{
+        height: 90px;
+        margin-top: 0;
+    }
+    #main-nav .menu{
+        height: 90px;
+        padding-top: 20px;
+    }
+    #main-nav .dropdown-menu {
+        margin-top: 0;
+    }
+    #head .login {
+        width: 50% !important;
+        flex: none;
+        max-width: none;
+        
+    }
+   
+}

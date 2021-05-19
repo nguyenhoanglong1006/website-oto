@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Website Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/thuvien_css/bootstrap.min.css">
+  <script src="../javascrip/thuvien_js/jquery-3.6.0.min.js"></script>
+  <script src="../javascrip/thuvien_js/poper-2.9.2.min.js"></script>
+  <script src="../javascrip/thuvien_js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="../css/sedan.css">
+</head>
+<body>
+    <div id="main" >
+        <div id="head" class="row  ">
+            <div class="col-3 hotline">
+                <span class="text-white"> Hotline: 03131345</span>
+                <a href="#" class="text-white ml-3">Báo giá</a>
+            </div>
+            <div class="col-6 form-inline  ">
+                <input class="form-control ml-3 search" type="search" placeholder="Tìm kiếm theo mã xe">
+                <input class="btn btn-primary ml-3" type="button" value="Tim kiem">
+            </div>
+            <div class="login form col-3 form-inline text-right"  >
+                <input class="btn btn-primary " type="button" value="Đăng nhập" data-toggle="modal" data-target="#modalDangnhap">
+                <input class="btn btn-primary ml-3" type="button" value="Đăng kí" data-toggle="modal" data-target="#modalDangnhap">
+            </div>
+        </div>
+        <div id="main-nav" class="row" >
+
+            <img class="col-2 logo" src="../img/Logo/logo.png" alt="anh" >
+            <div class="col-10 menu">
+              <ul class="nav">
+                <li class="nav-item"><a href="../html/trangchu.html" class="nav-link">Trang chủ</a></li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link nav-sanpham">Sản phẩm</a>
+                    <div class="dropdown">
+                        <div class="dropdown-menu" >
+                            <a class="dropdown-item" href="../html/sedan.html">Sedan</a>
+                            <a class="dropdown-item" href="../html/SUV.html">SUV</a>
+                            <a class="dropdown-item" href="../html/Dadung.html">Đa dụng</a>
+                            <a class="dropdown-item" href="../html/Coupé.html">Coupe</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item"><a href="../html/Gioithieu.html" class="nav-link">Giới thiệu</a></li>
+                <li class="nav-item"><a href="../html/tintuc.html" class="nav-link">Tin tức</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Sitemap</a></li>
+
+            </ul>
+            </div>
+            
+            <!-- reponsive -->
+           
+            
+        </div>
+        <div id="slider" >
+         
+            <div id="demo" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                  <li data-target="#demo" data-slide-to="0" class="active"></li>
+                  <li data-target="#demo" data-slide-to="1"></li>
+                  <li data-target="#demo" data-slide-to="2"></li>
+                </ul>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../img/sile/Picture1.png" alt="Los Angeles" width="1100" height="500">
+                    <div class="carousel-caption">
+                      <h3>Mercedes SUV</h3>
+                      <p>Dòng xe mui trần đẳng cấp của Mercedes</p>
+                    </div>   
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../img/sile/Picture2.png" alt="Chicago" width="1100" height="500">
+                    <div class="carousel-caption">
+                      <h3>Mercedes Coupé</h3>
+                      <p>Dòng xe mui trần đẳng cấp của Mercedes</p>
+                    </div>   
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../img/sile/Picture3.png" alt="New York" width="1100" height="500">
+                    <div class="carousel-caption">
+                      <h3>Mercedes AMG</h3>
+                      <p> AMG hoàn toàn mới của xe Mercedes</p>
+                    </div>   
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a class="carousel-control-next" href="#demo" data-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </a>
+              </div>
+        </div>
+        <!-- content -->
+        <div id="content">
+          <div class="nav-doc">
+            
+            <nav class="navbar bg-light">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="../html/sedan.html">Xe Sedan</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../html/SUV.html">Xe đa hình/SUV</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../html/Coupé.html">Xe Coupé</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="../html/Dadung.html">Xe đa dụng</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="information">
+           <div class="hinh1" >
+              <img src="../img/Sedan/sedan_1.jpg" alt="" width="640px" height="350px" >
+              <p> Mercedes A-Class Sedan 2019
+                <br>
+                   Giá từ : 2 259 000 000vđn
+                   <br>
+                   <br>
+                   <br>
+                   <a href="#">Thêm vào giỏ hàng</a>
+              </p>
+            
+
+           </div>   
+             <br>
+             <div class="hinh2">
+              <img src="../img/Sedan/sedan_2.png" alt="" width="640px" height="350px">
+              <p> Mercedes C-Class Sedan 2019
+                <br>
+                   Giá từ : 4 229 000 000vđn
+                   <br>
+                   <br>
+                   <br>
+                   <a href="#">Thêm vào giỏ hàng</a>
+              </p>
+           </div> 
+          </div>
+      
+        </div>
+        <div id="footer">
+            <p class="text-white">Địa chỉ : 12 Nguyễn Văn Bảo,Phường 4,Gò Vấp,TP Hồ Chí Minh
+                <br>
+                Số điện thoại : 0799133994
+            </p>
+          
+        </div>
+        <div class="container">
+          <!-- Modal đăng nhap -->
+          <div id="modalDangnhap" class="modal fade">
+           <div class="modal-dialog">
+               <div class="modal-content">
+                   <ul class="nav nav-tabs bg-dark" role="tablist">
+                       <li class="nav-item text-center"> 
+                           <a href="#" class="nav-link active " data-toggle="tab" data-target="#dangnhap">Đăng nhập</a></li>
+                       <li class="nav-item text-center"><a href="#" class="nav-link " data-toggle="tab" data-target="#dangki">Đăng kí</a></li>
+                   </ul>
+           <!-- Tab dang nhap/dang ki -->
+                   <div class="tab-content">
+                       <div id="dangnhap" class="tab-pane active ">
+                           <div class="form-input">
+                              
+                           <input type="text" class="form-control mt-5 " placeholder="Nhâp email"> <span id="spMail" class="text-danger">*</span>
+                           
+                           <input type="password" class="form-control mt-5" placeholder="Nhâp mật khẩu"><span id="spPass" class="text-danger">*</span>
+                           </div>
+                           <div class="btndangnhap text-center">
+                               <input id="dangnhap" type="submit" class="btn btn-dark mt-5 mb-5" value="Đăng nhập">
+                               <input type="button" class="btn btn-dark ml-3" value="Hủy" data-dismiss="modal" &times;>
+                           </div>
+                           
+                       </div>
+                       <!-- tab pane dang ky -->
+                       <div id="dangki" class="tab-pane">
+                           <div class="form-input">
+                               <input type="text" class="form-control mt-5 " placeholder="Nhập email"> <span id="spMail" class="text-danger">*</span>
+                           
+                               <input type="password" class="form-control mt-2" placeholder="Nhập mật khẩu"><span id="spPass" class="text-danger">*</span>
+                               <input type="password" class="form-control mt-2" placeholder="Nhập lại mật khẩu"><span id="spRePass" class="text-danger">*</span>
+                               <input type="text" class="form-control mt-2" placeholder="Nhập họ tên "><span id="spName" class="text-danger">*</span>
+                               <input type="date" class="form-control mt-2" placeholder="Nhập ngày tháng năm sinh"><span id="spDate" class="text-danger">*</span>
+                               <div class="form-inine mt-2">
+                                   <input type="radio" name="Gioi tinh" id="rdNam" checked> <label for="rdNam"> Nam</label>
+                                   <input type="radio" name="Gioi tinh" id="rdNu"> <label for="rdNu"> Nu</label>
+                               </div>
+                               <input type="text" class="form-control mt-2" placeholder="Nhập số điện thoại"><span id="spPhone" class="text-danger">*</span>
+   
+                           </div>  
+                               <div class="btndangnhap text-center">
+                                   <input id="dangky" type="submit" class="btn btn-dark mt-5 mb-5" value="Đăng kí">
+                                   <input type="button" class="btn btn-dark ml-3" value="Huy" data-dismiss="modal" &times;>
+                               </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+       </div>
+   
+             
+           </div>
+    </div>
+
+</body>
+</html>
